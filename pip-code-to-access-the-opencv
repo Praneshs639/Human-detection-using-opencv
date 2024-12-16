@@ -1,0 +1,18 @@
+#windows user: intsall each pip file in "VS Code"-terminal one by one.
+
+pip uninstall opencv-python-headless - #if opencv is installed in your system use this to delete the older opencv
+pip install opencv-python - #Install the full version of OpenCV
+pip install opencv-contrib-python - #Optionally, install additional OpenCV modules
+pip install --upgrade opencv-python - #upgrade opencv
+
+#Linux Users: Install GTK or QT Libraries
+
+#On Linux systems, OpenCV may need additional libraries to support GUI functionality
+
+#Install the required dependencies:
+sudo apt-get install libgtk2.0-dev pkg-config
+sudo apt-get install ffmpeg libsm6 libxext6 -y
+#above two code is to install after installation of gkt or qt libraries in linux using "linux terminal".
+
+
+#for both 'linux' and 'windows' pip code is common and need to install each pip code in "VS Code"-terminal one by one.
